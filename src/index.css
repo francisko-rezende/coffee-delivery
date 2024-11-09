@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src:
+      url("./assets/fonts/roboto/roboto-v32-latin-regular.woff2")
+        format("woff2"),
+      url("./assets/fonts/roboto/roboto-v32-latin-regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src:
+      url("./assets/fonts/roboto/roboto-v32-latin-700.woff2") format("woff2"),
+      url("./assets/fonts/roboto/roboto-v32-latin-700.woff") format("woff");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Baloo 2";
+    font-style: normal;
+    font-weight: 700;
+    src:
+      url("./assets/fonts/baloo-2/baloo-2-v21-latin-700.woff2") format("woff2"),
+      url("./assets/fonts/baloo-2/baloo-2-v21-latin-700.woff") format("woff");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Baloo 2";
+    font-style: normal;
+    font-weight: 800;
+    src:
+      url("./assets/fonts/baloo-2/baloo-2-v21-latin-800.woff2") format("woff2"),
+      url("./assets/fonts/baloo-2/baloo-2-v21-latin-800.woff") format("woff");
+  }
+}
